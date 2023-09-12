@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 267, 75%, 31%;
+    --background: 255 95% 10%;
     --foreground: 0 0% 3.9%;
 
     --card: 0 0% 100%;
@@ -36,7 +36,7 @@
   }
 
   .dark {
-    --background: 267, 75%, 31%;
+    --background: 255 95% 10%;
     --foreground: 0 0% 98%;
 
     --card: 0 0% 3.9%;
@@ -77,7 +77,7 @@
 
 .parallax_container,
 .parallax_layer {
-  height: 1000px;
+  height: 100vh;
 }
 
 .parallax_container {
