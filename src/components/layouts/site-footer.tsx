@@ -30,7 +30,7 @@ export default function SiteFooter() {
                 iboughtbed / Sanzhar (developer)
               </Link>
               <Link href={"https://www.instagram.com/d1tch4"}>
-                d1tch4 / Darhan (designer)
+                d1tch4 / Darkhan (designer)
               </Link>
             </div>
           </DialogContent>
