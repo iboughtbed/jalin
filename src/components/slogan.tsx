@@ -1,3 +1,5 @@
+"use client";
+
 export default function Slogan() {
   return (
     <div className="flex h-28 items-end justify-center">
