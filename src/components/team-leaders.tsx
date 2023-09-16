@@ -21,7 +21,7 @@ export default function TeamLeaders() {
 
   return (
     <div className="flex min-h-screen w-full flex-col items-center gap-12 border-white bg-background xl:gap-20">
-      <h1 className="text-6xl font-semibold text-white sm:text-[84px] sm:font-bold">
+      <h1 className="pt-4 text-6xl font-semibold text-white sm:text-[84px] sm:font-bold">
         Team leaders
       </h1>
       <div className="hidden gap-16 xl:flex">

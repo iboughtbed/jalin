@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 
 function Content() {
   return (
-    <Tabs defaultValue="digit" className="w-full text-white">
+    <Tabs defaultValue="digital" className="w-full text-white">
       <TabsList className="grid h-10 w-full grid-cols-4 rounded-2xl bg-[#350DA9] px-4 md:h-16">
         <TabsTrigger
           className="rounded-2xl text-xs font-bold text-white md:text-xl lg:text-2xl xl:text-3xl"
@@ -24,9 +24,9 @@ function Content() {
         </TabsTrigger>
         <TabsTrigger
           className="rounded-2xl text-xs font-bold text-white md:text-xl lg:text-2xl xl:text-3xl"
-          value="digit"
+          value="digital"
         >
-          <span>Digit</span>
+          <span>Digital</span>
         </TabsTrigger>
         <TabsTrigger
           className="rounded-2xl text-xs font-bold text-white md:text-xl lg:text-2xl xl:text-3xl"
@@ -44,7 +44,7 @@ function Content() {
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
               Матчи и турниры всех звезд старших классов (10-12 классы) по
-              футболу, волейболу и баскетболу, такие мероприятия заимствованы из
+              футболу, волейболу и баскетболу. Такие мероприятия заимствованы из
               западных школ, целями которых является популяризация спорта у
               старших классов.
             </AccordionContent>
@@ -54,9 +54,9 @@ function Content() {
               NIS juniors cup
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Спортивные соревнования, проводимые среди 7-9 классов по футболу,
-              волейболу и баскетболу. Аналогичные турниры, но уже для учеников
-              классов помладше.
+              Спортивные соревнования для 7-9 классов по футболу, волейболу и
+              баскетболу. Такие же турниры как NIS ALL-STARS tournaments, но для
+              учеников помладше.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -74,18 +74,18 @@ function Content() {
               CS:GO challenges
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Киберспортивный турнир по дисциплине контр-страйк, проводимый для
-              всех классов, с взносом и соответствующим призовым фондом. При
-              хорошей конкурентности есть возможность проведения турнира на
-              сетевом этапе.
+              Киберспортивный турнир по дисциплине CS:GO для всех классов, с
+              взносом и соответствующим призовым фондом. При хорошей
+              конкурентности есть возможность проведения турнира на сетевом
+              этапе (среди других НИШ).
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-5">
             <AccordionTrigger className="text-2xl md:text-5xl">
-              EaFc 24 champions
+              FIFA 24 champions
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Киберспортивный турнир по футбольной дисциплине fifa, проводимый
+              Киберспортивный турнир по футбольной дисциплине FIFA, проводимый
               для всех классов, с взносом и соответствующим призовым фондом.
               Организация пройдет на базе нашей школы.
             </AccordionContent>
@@ -110,9 +110,9 @@ function Content() {
               NIS recent
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Открытие новой школьной газеты.В рамках школьной газеты, мы
-              предлагаем вам свежие школьные новости внутри сети Назарбаев
-              Интеллектуальных Школ.
+              Открытие новой школьной газеты. В рамках школьной газеты мы будем
+              публиковать свежие новости внутри сети Назарбаев Интеллектуальных
+              Школ.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
@@ -128,7 +128,7 @@ function Content() {
         </Accordion>
       </TabsContent>
 
-      <TabsContent value="digit">
+      <TabsContent value="digital">
         <Accordion
           type="single"
           collapsible
@@ -137,7 +137,7 @@ function Content() {
         >
           <AccordionItem value="item-1">
             <AccordionTrigger className="text-2xl md:text-5xl">
-              Shanyraq ratings
+              Shanyraqs&apos; ratings
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
               Совершенно новая система, направленная на упрощение счета баллов в
@@ -163,7 +163,7 @@ function Content() {
               Hackathon
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Организация соревновании по программированию, целями которых
+              Организация соревнований по программированию, целями которых
               являются выявление эрудированных и талантливых учащихся в сфере
               IT, и дальше возможное внедрение в более масштабные соревнования
             </AccordionContent>
@@ -174,8 +174,8 @@ function Content() {
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
               Сотрудничество со школьным объединением программистов из Назарбаев
-              интеллектуальных школ г. Алматы (ФМН и ХБН), в целях возможного
-              создания филиала в нашем городе и создания совместных проектов в
+              Интеллектуальных Школ г. Алматы (ФМН и ХБН) в целях возможного
+              создания филиала в нашем городе и разработки совместных проектов в
               сфере программирования.
             </AccordionContent>
           </AccordionItem>
@@ -185,10 +185,10 @@ function Content() {
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
               Сотрудничество, направленное на расширение знаний учащихся школы.
-              Сотрудничество собой представляет образовательные процессы,
-              совместные мероприятия и возможность познать культуру стартапов,
-              возможность участвовать в митапах (meet up) с влиятельными
-              разработчиками из крупных корпорации и расширение нетворкинга.
+              Сотрудничество представляет собой образовательные процессы,
+              совместные мероприятия, возможность познать культуру стартапов,
+              участвовать в митапах (meet up) с влиятельными разработчиками из
+              крупных корпорации и расширение нетворкинга.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
@@ -196,11 +196,11 @@ function Content() {
               Courses
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Курсы, мастер-классы по мобильному программированию,
+              Курсы, мастер-классы по мобильному программированию и
               искусственному интеллекту. В нашей команде собрались сильнейшие
               программисты с огромным багажом опыта на различных соревнованиях,
               олимпиадах областных, сетевых, республиканских и международных
-              уровней, которые могут свой опыт направить на образование наших
+              уровней, которые могут направить свой опыт на образование наших
               учеников.
             </AccordionContent>
           </AccordionItem>
@@ -214,15 +214,16 @@ function Content() {
               NIS society
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Возможность для каждого ученика открыть клуб/кружок по интересной
-              для себя тематике. Конечно при полном взятии обязательств и
-              ответственности и полном соглашении с устоявшими правилами
-              школьной администрации.
+              Теперь у каждого ученика есть возможность открыть клуб/кружок по
+              интересной для себя тематике.
+              <br /> - Полное взятие обязательств и ответственности
+              <br /> - Соглашение с устоявшими правилами школы
+              <br /> - Разрешение школьной администрации
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger className="text-2xl md:text-5xl">
-              Outdoor activities
+              Extracurricular activities
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
               Внеклассные мероприятия, нацеленные на расширение горизонта
@@ -236,10 +237,10 @@ function Content() {
               FLEX guides
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Онлайн-встречи, уроки с победителями данной программы по обмену
-              учеников из нашей школы, в целях получения информации про
-              возможности, перспективы и тактики становления финалистом данной
-              программы.
+              Онлайн-встречи, уроки с финалистам данной программы по обмену
+              учеников из нашей школы. Они расскажут вам о перспективах и
+              возможностях данной программы и поделятся тактиками и хитростями
+              для прохождения в финал программы FLEX.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
@@ -269,9 +270,9 @@ function Content() {
               NIS week
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Тематические недели дающие возможность лучше вникнуть в ту или
+              Тематические недели, дающие возможность лучше вникнуть в ту или
               иную культуру или же грызть гранит науки. Соответствующие
-              декоративные элементы будут выполнятся участниками нашей команды.
+              декоративные элементы будут выполняться участниками нашей команды.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-7">
@@ -279,8 +280,8 @@ function Content() {
               Disco-nights
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
-              Школьные дискотеки для всех классов с входным взносом, который
-              дальше пойдет на благотворительность детским домам, приютам и т.д.
+              Благотворительные вечера и школьные дискотеки, собранные средства
+              которых перечислятся детским домам и приютам.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-8">

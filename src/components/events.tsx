@@ -30,13 +30,6 @@ export default function Events() {
         {items.map((item, i) => (
           <SwiperSlide key={i}>
             <div className="relative flex flex-col items-center rounded-2xl bg-[#25077D]">
-              {/* <div className="flex h-[200px] w-[320px] flex-col items-center justify-start gap-2 pt-16 lg:h-[500px] lg:w-[800px]">
-                <div className="h-[75px] w-[200px] rounded-2xl bg-[#350DA9]" />
-                <p className="flex w-[200px] justify-between text-base font-semibold">
-                  <span>{item}</span>
-                  <span className="text-sm font-normal">9/11/23</span>
-                </p>
-              </div> */}
               <div className="h-[200px] w-[320px] rounded-2xl bg-[#350DA9] md:h-[375px] md:w-[600px] lg:h-[500px] lg:w-[800px]"></div>
               <div className="absolute bottom-6 flex w-full flex-col px-10 md:bottom-14 md:flex-row md:items-center md:justify-between">
                 <p className="text-xs font-bold md:text-xl lg:text-3xl">
