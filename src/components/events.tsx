@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,8 +11,9 @@ import "swiper/css/pagination";
 
 export default function Events() {
   const items = [
-    { title: "Football match for 10-12th grade", day: "18/09/23" },
-    { title: "Meet-up with Jaiq Hub for 7-9th grade", day: "18/09/23" },
+    "https://github.com/iboughtbed/jalin-assets/blob/main/assets/nis-footbal-22-09.png?raw=true",
+    "https://github.com/iboughtbed/jalin-assets/blob/main/assets/jaiq-hub-18-09.png?raw=true",
+    "https://github.com/iboughtbed/jalin-assets/blob/main/assets/fifa-18-09.png?raw=true",
   ];
 
   return (
@@ -25,17 +28,19 @@ export default function Events() {
         navigation={true}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         modules={[Autoplay, Pagination, Navigation]}
-        className="h-[200px] w-[320px] rounded-2xl text-white md:h-[375px] md:w-[600px] lg:h-[500px] lg:w-[800px]"
+        className="h-[300px] w-[300px] rounded-2xl text-white md:h-[500px] md:w-[500px] xl:h-[550px] xl:w-[550px]"
       >
         {items.map((item, i) => (
           <SwiperSlide key={i}>
             <div className="relative flex flex-col items-center rounded-2xl bg-[#25077D]">
-              <div className="h-[200px] w-[320px] rounded-2xl bg-[#350DA9] md:h-[375px] md:w-[600px] lg:h-[500px] lg:w-[800px]"></div>
-              <div className="absolute bottom-6 flex w-full flex-col px-10 md:bottom-14 md:flex-row md:items-center md:justify-between">
-                <p className="text-xs font-bold md:text-xl lg:text-3xl">
-                  {item.title}
-                </p>
-                <p className="text-xs md:text-base lg:text-xl">{item.day}</p>
+              <div className="relative h-[300px] w-[300px] rounded-2xl bg-[#350DA9] md:h-[500px] md:w-[500px] xl:h-[550px] xl:w-[550px]">
+                <Image
+                  src={item}
+                  alt="EVENT"
+                  sizes="(max-width: 768px) 300px, (max-width: 1280px) 500px, 550px"
+                  className="rounded-2xl object-contain"
+                  fill
+                />
               </div>
             </div>
           </SwiperSlide>
