@@ -216,13 +216,14 @@ function Content() {
             <AccordionContent className="lg:text-xl xl:text-2xl">
               Теперь у каждого ученика есть возможность открыть клуб/кружок по
               интересной для себя тематике.
+              <br /> Условия для открытия клуба:
               <br /> - Полное взятие обязательств и ответственности
               <br /> - Соглашение с устоявшими правилами школы
               <br /> - Разрешение школьной администрации
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger className="text-2xl md:text-5xl">
+            <AccordionTrigger className="text-left text-2xl md:text-5xl">
               Extracurricular activities
             </AccordionTrigger>
             <AccordionContent className="lg:text-xl xl:text-2xl">
